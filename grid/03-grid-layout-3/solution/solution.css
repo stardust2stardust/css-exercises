@@ -19,14 +19,11 @@
   background-color: #393f4d;
 }
 
-.logo {
-}
+.logo {}
 
-.menu {
-}
+.menu {}
 
-.menu ul {
-}
+.menu ul {}
 
 .menu ul,
 .menu li {
@@ -45,8 +42,7 @@
   border-radius: 10px;
 }
 
-.photo  {
-}
+.photo {}
 
 .sidebar .side-content {
   background-color: white;
@@ -59,8 +55,7 @@
   background-color: #FF7755;
 }
 
-.nav ul {
-}
+.nav ul {}
 
 .nav ul li {
   font-size: 16px;
@@ -101,7 +96,7 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
 
 /* SOLUTION */
@@ -143,7 +138,7 @@
   gap: 50px;
 }
 
-.photo  {
+.photo {
   display: grid;
   align-items: center;
 }

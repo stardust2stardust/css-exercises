@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -8,6 +9,10 @@ body, html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(8, 100px);
+  gap: 15px;
 }
 
 .container div {
@@ -21,18 +26,24 @@ body, html {
 
 .header {
   background-color: #FFDE22;
+  grid-column: 1 / 5;
 }
 
 .sidebar {
   background-color: #FF7755;
+  grid-row: 2 / 7;
 }
 
 .nav {
   background-color: #00DDFF;
+  grid-column: 2 / 5;
+  grid-row: 2 / 3;
 }
 
 .article {
   background-color: #bccbde;
+  grid-column: 2 / 5;
+  grid-row: 3 / 7;
 }
 
 .article p {
@@ -44,4 +55,5 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+  grid-column: 1 / -1;
 }
